@@ -1,0 +1,76 @@
+create database PcShop;
+
+use PcShop;
+
+CREATE TABLE user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    password VARCHAR(255)
+);
+
+CREATE TABLE admin (
+    NID VARCHAR(20) PRIMARY KEY,
+    user_id INT,
+    phone_number VARCHAR(15),
+    FOREIGN KEY (user_id) REFERENCES user(id)
+);
+
+CREATE TABLE buyer (
+    ssn VARCHAR(20) PRIMARY KEY,
+    user_id INT,
+    shipping_address VARCHAR(255),
+    FOREIGN KEY (user_id) REFERENCES user(id)
+);
+
+CREATE TABLE product (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    brand VARCHAR(255),
+    type VARCHAR(255),
+    info TEXT,
+    image VARCHAR(255),
+    registration_date DATE,
+    price DECIMAL(10, 2)
+);
+
+CREATE TABLE review (
+    buyer_ssn VARCHAR(20),
+    product_id INT,
+    rating TEXT,
+    PRIMARY KEY (buyer_ssn, product_id),
+    FOREIGN KEY (buyer_ssn) REFERENCES buyer(ssn),
+    FOREIGN KEY (product_id) REFERENCES product(Id)
+);
+
+CREATE TABLE tier (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    type VARCHAR(255),
+    info TEXT,
+    image VARCHAR(255),
+    price DECIMAL(10, 2)
+);
+
+CREATE TABLE cart (
+    cart_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    buyer_ssn VARCHAR(20),
+    FOREIGN KEY (user_id) REFERENCES user(id),
+    FOREIGN KEY (buyer_ssn) REFERENCES buyer(ssn)
+);
+
+CREATE TABLE added_to (
+    cart_id INT,
+    product_id INT DEFAULT NULL,
+    tier_id INT DEFAULT NULL,
+    FOREIGN KEY (cart_id) REFERENCES cart(cart_id),
+    FOREIGN KEY (product_id) REFERENCES product(Id),
+    FOREIGN KEY (tier_id) REFERENCES tier(Id)
+);
+
+CREATE TABLE cart_items (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    type VARCHAR(50) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL
+);
