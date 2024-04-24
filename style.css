@@ -1,0 +1,143 @@
+
+.container {
+    display: flex;
+    margin: 5% auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    letter-spacing: 1px;
+    font-weight: 100px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.input-group {
+    width: 40%;
+    text-align: center;
+    align-self: top;
+}
+
+.input-group h3{
+    font-size: 18px;
+    text-align: center;
+}
+
+.input-group input {
+    padding: 7px;
+    width: 70%;
+    margin: 10px auto;
+    background-color: #3eb5994f;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+
+.input-group input::placeholder {
+    color: #000;
+}
+
+.divider-column{
+    background-color: #3eb5994f;
+    height: 500px;
+    width: 5px;
+}
+
+.divider-row{
+    background-color: #3eb5994f;
+    width: 98%;
+    height: 5px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #3eb599;
+    color: #fff;
+    margin: 10px auto;
+    padding: 7px 50px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #105749;
+}
+
+.button-edit {
+    font-size: 14px;
+    color: #21873b;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button-delete {
+    font-size: 14px;
+    color: #af3023;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button-edit:hover {
+    color: #0e5c23;
+}
+
+.button-delete:hover {
+    color: #932114;
+}
+
+.product-list {
+    width: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.product-list h3{
+    font-size: 18px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.row h5{
+    width: 100%;
+    background-color: #3eb5994f;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.row h6{
+    font-size: 14px;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    margin: 0 2.5px;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

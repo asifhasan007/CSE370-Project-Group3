@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+body{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+.hero{
+    height: 60;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3eb599;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .3s;
+}
+button{
+    border: none;
+    background: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1a1a1a;
+    margin-top: 1%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main{
+    max-width: 1200px;
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+main .container{
+    max-width: 200px;
+    flex: 1 1 210px;
+    text-align: center;
+    height: 300px;
+    border: 0px solid #000;
+    margin:30px;
+}
+
+main .container .image{
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+main .container .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .container .caption{
+    padding-left: 1em;
+    text-align: center;
+    line-height: 1.5em;
+    height: 25%;
+}
+
+main .container .caption p{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+main2{
+    max-width: 1200px;
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+main2 .container{
+    max-width: 200px;
+    flex: 1 1 210px;
+    text-align: center;
+    height: 300px;
+    border: 0px solid #000;
+    margin:30px;
+}
+
+main2 .container .image{
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+main2 .container .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main2 .container .caption{
+    padding-left: 1em;
+    text-align: center;
+    line-height: 1.5em;
+    height: 25%;
+}
+
+
+main2 .container .caption p{
+    font-size: 18px;
+    font-weight: normal;
+}
+

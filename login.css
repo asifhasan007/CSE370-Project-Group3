@@ -1,0 +1,126 @@
+body{
+    margin = 0;
+    padding = 0;
+    font-family: Montserrat;
+    background-color: white;    
+}
+.box{
+    width: 500px;
+    height: 900px;
+    position: absolute;
+    right: 0%;
+    display: flex;
+    background-image: linear-gradient(to right, #3eb599, #13bb7bfd);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 1400px;
+    height: 900px;
+    position: absolute;
+    left: 0%;
+    display: flex;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h2{
+    color: white;
+    font-style: bold;
+    font-size: 40px;
+}
+.box p{
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.box button{
+    width: 200px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #1a1a1a;
+    font-size: 20px;
+    font-style: bold;
+    cursor: pointer;
+}
+
+.box button:hover{
+    background: #ffffff;
+    color: #3eb599;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 23px;
+}
+
+.box2 h2{
+    color: #3eb599;
+    font-style: bold;
+    font-size: 40px;
+}
+.box2 p{
+    color: #3eb599;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.box2 form {
+    width: 100%;
+    max-width: 500px;
+    background: transparent;
+    border: 2px solid #46464600;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px #1a1a1a opacity: 0.5;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.box2 form input{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #d6d6d6;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+        background: #ffffff;
+}
+
+.box2 form input[type="submit"]{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    color: #fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: #3eb599;
+}
+
+.box2 form input[type="submit"]:hover {
+    background: #3eb599;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.box2 .logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
