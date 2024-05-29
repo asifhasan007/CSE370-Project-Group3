@@ -63,7 +63,7 @@ The PC Component Shop is an e-commerce website dedicated to PC components. It of
 
 ### Schema Diagram
 
-<img src="SCHEMA.png"/>
+<img src="SCHEMA.png" width=400 height=400/>
 
 ---
 
