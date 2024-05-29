@@ -1,6 +1,6 @@
 # PC Component Shop
 
-### CSE370: Database Systems
+### Database Systems
 ### Project Report
 
 ---
@@ -9,8 +9,8 @@
 
 ---
 
-### Group No: 03
-### CSE370 Lab Section: 09, Spring 2024
+
+### Section: 09, Spring 2024
 
 #### Team Members and Contributions:
 | ID | Name | Contribution |
