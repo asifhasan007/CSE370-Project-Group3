@@ -57,13 +57,13 @@ The PC Component Shop is an e-commerce website dedicated to PC components. It of
 
 ### ER/EER Diagram
 
-*Include the ER/EER diagram here*
+<img src="EER.jpg"/>
 
 ---
 
 ### Schema Diagram
 
-*Include the Schema diagram here*
+<img src="SCHEMA.png"/>
 
 ---
 
