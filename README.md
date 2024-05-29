@@ -71,19 +71,19 @@ The PC Component Shop is an e-commerce website dedicated to PC components. It of
 
 A brief discussion about frontend development with screenshots and individual contributions:
 
-#### Contribution of ID: 21301035, Name: Omar Nasif Chowdhury
+#### Contribution of Name: Omar Nasif Chowdhury
 *Description and screenshots of the add and modify product/tier pages.*
 
-#### Contribution of ID: 24141156, Name: MD ASIF HASAN
+#### Contribution of Name: MD ASIF HASAN
 *Description and screenshots of the admin and cart pages.*
 
-#### Contribution of ID: 24141185, Name: Md.Fahim
+#### Contribution of Name: Md.Fahim
 *Description and screenshots of the registration, login, and homepage.*
 
-#### Contribution of ID: 21301261, Name: Rafi Siddiki
+#### Contribution of Name: Rafi Siddiki
 *Description and screenshots of the product browsing, filtering, and review pages.*
 
-#### Contribution of ID: 24141246, Name: Arabinda Paul Turja
+#### Contribution of Name: Arabinda Paul Turja
 *Description and screenshots of the tier browsing and filtering pages.*
 
 ---
