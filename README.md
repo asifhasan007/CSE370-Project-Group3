@@ -10,7 +10,7 @@
 ---
 
 
-###Spring 2024
+Spring 2024
 
 #### Team Members and Contributions:
 | ID | Name | Contribution |
