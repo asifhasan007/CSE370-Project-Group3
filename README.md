@@ -57,7 +57,7 @@ The PC Component Shop is an e-commerce website dedicated to PC components. It of
 
 ### ER/EER Diagram
 
-<img src="EER.jpg"/>
+<img src="EER.jpg" width=400 height=400/>
 
 ---
 
